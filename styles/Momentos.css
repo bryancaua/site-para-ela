@@ -34,9 +34,6 @@
     --bege-leve: #FFF5F7;
 }
 
-main {
-   max-width: 100%;
-}
 
 body {
     background-color: var(--bege-claro);
@@ -132,3 +129,43 @@ body {
       filter: brightness(1);
     }
   }
+
+
+.momentos__bloco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 5rem;
+}
+
+.bloco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+.bloco__bloco_central {
+    margin: 2rem 0;
+  }
+
+
+.lado__esquerdo, 
+.lado__direito {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    max-width: max-content;
+    align-items: flex-start;
+}
+
+
+.texto__lado {
+    color: var(--bege-leve);
+    font-family: "Kalam", cursive;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    flex: 1;
+}
