@@ -1,0 +1,65 @@
+.instrument-sans {
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  
+.kalam-regular {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.imperial-script-regular {
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root {
+    --vinho-escuro: #330000;
+    --bege-escuro: #C4A29E;
+    --bege-rosado: #EBA6A9;
+    --bege-claro: #FFC6AC;
+    --rosa-choque: #F40076;
+    --bege-leve: #FFF5F7;
+}
+
+.pagina__inicial {
+    background-color: var(--bege-rosado);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .carta__container {
+    text-align: center;
+  }
+  
+  .botao__carta {
+    background-color: var(--bege-rosado);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    font-family: "Kalam", cursive;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .botao__carta:hover {
+    transform: scale(1.1);
+    background-color: var(--rosa-choque);
+  }
+  
