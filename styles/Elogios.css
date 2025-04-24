@@ -49,6 +49,7 @@ body {
     justify-content: space-between; 
     align-items: center; 
     padding: 0.5rem 0.25rem; 
+    width: 100%;
 }
 
 .header__start {
@@ -86,6 +87,13 @@ body {
     font-family: "Instrument Sans", sans-serif;
     font-size: 1.1rem;
     transition: color 0.5s ease; 
+}
+
+.nav__link_elogios {
+  text-decoration: none;
+  color: var(--rosa-choque);
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 1.1rem;
 }
 
 .nav__link:hover {

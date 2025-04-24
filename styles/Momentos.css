@@ -89,6 +89,13 @@ body {
     transition: color 0.5s ease; 
 }
 
+.nav__link_elogios {
+  text-decoration: none;
+  color: var(--rosa-choque);
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 1.1rem;
+}
+
 .nav__link:hover {
     color: var(--rosa-choque);
     text-decoration: none;
@@ -125,71 +132,3 @@ body {
       filter: brightness(1);
     }
   }
-
-
-.conteudo__principal{
-    text-align: center;
-    padding-top: 2rem;
-    position: relative;
-}
-  
-.mensagem__grande {
-  color: var(--bege-leve);
-  font-family: "Imperial Script", cursive;
-  font-weight: 400;
-  font-size: 3.5rem;
-}
-
-.container__imagem-texto {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 2rem;
-}
-
-.linha__imagens {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-.lirios {
-  height: auto;
-}
-
-.foto__grande {
-  height: auto;
-  padding-bottom: 1rem;
-}
-
-.textinho__home {
-  font-size: 1.05rem;
-  font-family: "Kalam", cursive;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--bege-leve);
-  max-width: 50rem;
-  line-height: 1.6;
-  text-align: center;
-}
-
-.frase__vinho {
-  color: var(--vinho-escuro);
-}
-  
-.foto__lateral-esquerda,
-.foto__lateral-direita {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.foto__lateral-esquerda {
-  left: 8%;
-}
-
-.foto__lateral-direita {
-  right: 8%;
-}
