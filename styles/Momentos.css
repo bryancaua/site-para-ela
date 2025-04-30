@@ -137,7 +137,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding: 1rem;
-    gap: 5rem;
+    gap: 1rem;
 }
 
 .bloco {
@@ -157,7 +157,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
-    max-width: max-content;
+    max-width: 45rem;
     align-items: flex-start;
 }
 
@@ -168,4 +168,12 @@ body {
     font-size: 1.1rem;
     line-height: 1.6rem;
     flex: 1;
+}
+
+.texto__lado_embaixo {
+  color: var(--bege-leve);
+  font-family: "Kalam", cursive;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  flex: 1;
 }
