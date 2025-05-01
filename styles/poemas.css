@@ -86,7 +86,8 @@ body {
     transition: color 0.5s ease; 
 }
 
-.nav__link_euteamo {
+
+.nav__link_poema {
   text-decoration: none;
   color: var(--rosa-choque);
   font-family: "Instrument Sans", sans-serif;
@@ -131,62 +132,47 @@ body {
     }
   }
 
+  .section__poemas {
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    padding: 2rem 4rem;
+    align-items: center;
+  }
+  
+  .poema {
+    max-width: 40rem;
+    font-family: "Kalam", cursive;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: var(--bege-leve);
+    text-align: center;
+  }
 
+  .span__poemas {
+    color: var(--vinho-escuro);
+  }
 
-.euteamo__bloco {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 2rem;
-  gap: 2rem;
-}
-
-
-.foto__lado {
-  border-radius: 1rem;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
-  transition: transform 0.3s ease, filter 0.3s ease;
-}
-
-.foto__lado:hover {
-  transform: scale(1.03);
-  filter: brightness(1.1);
-}
-
-.textao__euteamo {
-  color: var(--bege-leve);
-  font-family: "Kalam", cursive;
-  font-size: 1.1rem;
-  line-height: 1.6rem;
-  text-align: center;
-}
-.texto__vinho {
-  color: var(--vinho-escuro);
-}
-
-
-
-.momentos__footer {
-  position: relative;
-  height: 3rem; 
-}
-
-.lirio__footer_esquerda,
-.lirio__footer_direita {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 4rem; 
-  filter: drop-shadow(0 0 8px var(--rosa-choque)); 
-  transition: transform 0.3s ease;
-}
-
-.lirio__footer_esquerda {
-  left: 1rem;
-}
-
-.lirio__footer_direita {
-  right: 1rem;
-}
-
-
+  .momentos__footer {
+    position: relative;
+    height: 3rem; 
+  }
+  
+  .lirio__footer_esquerda,
+  .lirio__footer_direita {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 4rem; 
+    filter: drop-shadow(0 0 8px var(--rosa-choque)); 
+    transition: transform 0.3s ease;
+  }
+  
+  .lirio__footer_esquerda {
+    left: 1rem;
+  }
+  
+  .lirio__footer_direita {
+    right: 1rem;
+  }
+  
