@@ -132,52 +132,39 @@ body {
   }
 
 
-.momentos__bloco {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 1rem;
-    gap: 1rem;
-}
 
-.bloco {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-  }
-  
-.bloco__bloco_central {
-    margin: 2rem 0;
-  }
-
-
-.lado__esquerdo, 
-.lado__direito {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-    max-width: 45rem;
-    align-items: flex-start;
+.euteamo__bloco {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  gap: 2rem;
 }
 
 
-.texto__lado {
-    color: var(--bege-leve);
-    font-family: "Kalam", cursive;
-    font-size: 1.1rem;
-    line-height: 1.6rem;
-    flex: 1;
+.foto__lado {
+  border-radius: 1rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.texto__lado_embaixo {
+.foto__lado:hover {
+  transform: scale(1.03);
+  filter: brightness(1.1);
+}
+
+.textao__euteamo {
   color: var(--bege-leve);
   font-family: "Kalam", cursive;
   font-size: 1.1rem;
   line-height: 1.6rem;
-  flex: 1;
+  text-align: center;
 }
+.texto__vinho {
+  color: var(--vinho-escuro);
+}
+
+
 
 .momentos__footer {
   position: relative;
