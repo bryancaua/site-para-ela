@@ -167,3 +167,27 @@ body {
   .foto__direita {
     margin-left: 4rem;
   }
+
+  .momentos__footer {
+    position: relative;
+    height: 1rem; 
+  }
+  
+   .lirio__footer_esquerda,
+    .lirio__footer_direita {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 4rem; 
+      filter: drop-shadow(0 0 8px var(--rosa-choque)); 
+      transition: transform 0.3s ease;
+    }
+    
+    .lirio__footer_esquerda {
+      left: 1rem;
+    }
+    
+    .lirio__footer_direita {
+      right: 1rem;
+    }
+  
