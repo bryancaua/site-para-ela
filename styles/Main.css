@@ -193,3 +193,69 @@ body {
 .foto__lateral-direita {
   right: 8%;
 }
+
+
+@media screen and (max-width: 1440px) {
+  .nav {
+    gap: 3rem;
+  }
+
+  .mensagem__grande {
+    font-size: 3rem;
+  }
+
+  .textinho__home {
+    max-width: 42rem;
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .foto__lateral-esquerda {
+    left: 4%;
+    width: 9rem;
+  }
+
+  .foto__lateral-direita {
+    right: 4%;
+    width: 9rem;
+  }
+
+  .foto__grande {
+    max-width: 18rem;
+  }
+
+  .lirios {
+    max-width: 5rem;
+  }
+
+  .nav__link {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .nav {
+    gap: 2rem;
+  }
+
+  .foto__lateral-esquerda,
+  .foto__lateral-direita {
+    display: none; 
+  }
+
+  .textinho__home {
+    max-width: 36rem;
+  }
+
+  .foto__grande {
+    max-width: 16rem;
+  }
+
+  .lirios {
+    max-width: 4rem;
+  }
+
+  .mensagem__grande {
+    font-size: 2.5rem;
+  }
+}
